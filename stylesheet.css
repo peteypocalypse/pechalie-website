@@ -8,19 +8,24 @@
 
 div {
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 body {
-    background-color: darkblue;
+    background-color: rgb(0, 0, 0);
 }
 
 a {
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(37, 37, 37);
 }
 
 li {
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
 }
