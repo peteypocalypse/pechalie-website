@@ -15,6 +15,12 @@
 
 .info {
     font-size: x-small;
+    font-family: "Frutiger";
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 
 .Links {
@@ -80,4 +86,5 @@ li {
     color: rgb(255, 255, 255);
     font-size: 25px;
     text-align: center;
+
 }
