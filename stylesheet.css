@@ -1,9 +1,46 @@
+.pechalie {
+    width: 500px;
+    height: 110px;
+    background-image: url("Pechalie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .welcome {
     font-size: 50px;
 }
 
 .info {
     font-size: x-small;
+}
+
+.Links {
+    width: 500px;
+    height: 110px;
+    background-image: url("Links.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credits1 {
+    width: 500px;
+    height: 110px;
+    background-image: url("Credits.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credits {
+    font-size: 25px;
 }
 
 div {
@@ -13,14 +50,29 @@ div {
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0044ff; /* Fallback color in case image doesn't load */
+}
+
+ @font-face {
+    font-family: "Frutiger"; /* Choose a descriptive name for your font */
+    src: url("fonts/Frutiger.ttf") format("truetype"),
 }
 
 a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Frutiger";
     color: rgb(255, 255, 255);
     font-size: 25px;
-    background-color: rgb(37, 37, 37);
+    font-weight: 900;
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
 }
 
 li {
