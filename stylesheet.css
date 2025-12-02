@@ -9,6 +9,26 @@
     margin-right: auto;
 }
 
+.article-1 {
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    outline-width: 3px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.pechalie_news {
+    width: 500px;
+    height: 110px;
+    background-image: url("Pechalie News.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .welcome {
     font-size: 50px;
 }
@@ -47,12 +67,22 @@
 
 .credits {
     font-size: 25px;
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
 }
 
 div {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
 }
 
 body {
@@ -86,5 +116,4 @@ li {
     color: rgb(255, 255, 255);
     font-size: 25px;
     text-align: center;
-
 }
