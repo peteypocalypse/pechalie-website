@@ -9,13 +9,41 @@
     margin-right: auto;
 }
 
-.article-1 {
+.article {
     background-color: white;
     width: 650px;
     height: 500px;
     outline-width: 3px;
     outline-color: black;
     outline-style: solid;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+.articler {
+    background-color: white;
+    margin-left: auto;
+    width: 650px;
+    height: 500px;
+    outline-width: 3px;
+    outline-color: black;
+    outline-style: solid;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+h1 {
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
 }
 
 .pechalie_news {
@@ -104,16 +132,26 @@ a {
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 900;
+    text-align: center;
     text-shadow:
         -2px -2px 0 black,
          2px -2px 0 black,
         -2px  2px 0 black,
          2px  2px 0 black;
+    display: block; /* Make it a block-level element */
+    width: fit-content; /* Or define a specific width */
+    margin: 0 auto; /* Center horizontally */
 }
 
 li {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    text-align: center;
+}
+
+.navbar {
+    background-image: radial-gradient(rgb(17, 0, 255), rgb(134, 125, 255), rgb(255, 255, 255));
+    background-size: 50px 15px;
+    display: flex;
+    gap: 5px;
 }
